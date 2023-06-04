@@ -1,0 +1,39 @@
+.faq {
+
+    text-align: left;
+    margin-bottom: 30px;
+  
+    &__list {
+    }
+  
+    &__item {
+      padding-left: 25px;
+      margin-bottom: 25px;
+      position: relative;
+
+      &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 13px;
+        width: 16px;
+        height: 3px;
+        transform: skew(-30deg);
+        background: var(--accent);
+      }
+    }
+  
+    &__title {
+      font-family: var(--philosopher);
+      font-size: 24px;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 10px;
+    }
+  
+    &__text {
+      font-family: var(--montserrat);
+      font-size: 16px;
+      line-height: 20px;  
+    }
+  }

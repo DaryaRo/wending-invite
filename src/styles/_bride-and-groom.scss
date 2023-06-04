@@ -1,0 +1,32 @@
+.bride-and-groom {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+
+  font-family: var(--comforter);
+  font-size: 78px;
+  color: var(--accent);
+
+  .groom {
+    text-align: center;
+  }
+  .bride {
+    text-align: center;
+  }
+
+  .decor {
+    width: 70%;
+    margin: -15px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__line {
+      flex: 1 0 auto;
+      height: 3px;
+      background: var(--accent);
+    }
+  }
+}

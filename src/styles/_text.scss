@@ -1,0 +1,24 @@
+.content {
+  text-align: center;
+  padding: 30px 0;
+}
+
+h2 {
+  font-family: var(--philosopher);
+  font-size: 24px;
+  font-weight: 400;
+  color: var(--accent);
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+  &.--guest {
+    font-size: 32px;
+  }
+}
+
+.text {
+  font-family: var(--montserrat);
+  font-size: 14px;
+  line-height: 19px;
+  margin-bottom: 20px;
+}

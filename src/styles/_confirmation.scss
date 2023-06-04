@@ -1,0 +1,16 @@
+.confirmation {
+
+  margin-bottom: 30px;
+
+  &__title {
+    font-family: var(--montserrat);
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  &__buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px 30px;
+  }
+}

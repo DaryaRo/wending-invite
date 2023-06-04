@@ -1,0 +1,17 @@
+.button {
+  height: 36px;
+  font-family: var(--montserrat);
+  font-size: 16px;
+  color: var(--accent);
+  border-radius: 5px;
+  border: 1px solid var(--accent);
+
+  &.--green {
+    color: var(--primaryLight);
+    background: var(--accent);
+  }
+
+  &.--full-width {
+    grid-column: 1/-1;
+  }
+}

@@ -1,0 +1,40 @@
+.program {
+
+  display: grid;
+  grid-row-gap: 30px;
+  font-family: var(--philosopher);
+  margin-bottom: 30px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    &:not(:last-child)::after {
+      content: '';
+      width: 0;
+      height: 30px;
+      position: absolute;
+      top: 100%;
+      left: 80px;
+      border-right: 2px dashed #E7CEC9;
+    }
+  }
+
+  &__time {
+    flex: 0 0 60px;
+    font-size: 24px;
+    color: var(--accent);
+  }
+
+  &__icon {
+    margin: 0 10px 0 5px;
+    flex: 0 0 35px;
+  }
+
+  &__text {
+    flex: 1 1 100%;
+    text-align: left;
+  }
+}

@@ -1,0 +1,26 @@
+@import './styles/vars';
+@import './styles/reset';
+@import './styles/text';
+@import './styles/input';
+@import './styles/button';
+@import './styles/scroll';
+@import './styles/bride-and-groom';
+@import './styles/confirmation';
+@import './styles/dress-code';
+@import './styles/faq';
+@import './styles/hero';
+@import './styles/program';
+@import './styles/signature';
+@import './styles/timer';
+
+
+[class*="__container"] {
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.map {
+  width: 100%;
+  background: lightgreen;
+  height: 60vh;
+}
